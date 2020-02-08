@@ -1,0 +1,170 @@
+@startuml FamilyTree
+
+'Babas Side List
+[Mosharof Hussain]<<Male>>#red
+[Rehana Khatun]<<Female>>
+
+[Monzoor Murshed]<<Male>>
+[Israt Jahan]<<Female>>
+
+[Mahbub Murshed]<<Male>>
+[Lubna Chachi]<<Female>>
+
+[Maksud Murshed]<<Male>>
+[Chobi Chachi]<<Female>>
+
+[Minhaz Murshed]<<Male>>
+[Ruby Chachi]<<Female>>
+
+[Mahtab Murshed]<<Male>>
+[Fateha Chachi]<<Female>>
+
+[Razi Murshed]<<Male>>
+[Wazih Abbas Murshed]<<Male>>
+[Rafid Murshed]<<Male>>
+[Sadid Murshed]<<Male>>
+[Mariam Murshed]<<Female>>
+[Siam Murshed]<<Male>>
+[Ilham Murshed]<<Male>>
+[Musa Murshed]<<Male>>
+[Mahdi Murshed]<<Male>>
+[Moaz Murshed]<<Male>>
+[Tasnim Murshed]<<Female>>
+[Tohfa Murshed]<<Female>>
+[Tabassum Murshed]<<Female>>
+
+'Ma's Side List
+[Taiyeb Ali]<<Male>>#red
+[Shah Saleha Begum]<<Female>>#red
+
+[Ataur Rahman]<<Male>>
+[Rownak Jahan]<<Female>>
+[Mujibur Rahman]<<Male>>
+[Rowshan Jahan]<<Female>>
+[Ahmed Abu Saleh]<<Male>>
+[Noor Jahan]<<Female>>
+[Abul Fateh M Abdullah]<<Male>>
+[Aditi Titas Huq]<<Female>>
+
+[Anwar Sadmani]<<Male>>
+[Shapla Sadmani]<<Female>>
+[Fatima Al Zahra]<<Female>>
+
+[Shahriar Rahman]<<Male>>
+[Hajera Akhter]<<Female>>
+[Ayesha Ayana]<<Female>>
+[Ayham Abdullah]<<Female>>
+
+[Akmar Saminur Rahman]<<Male>>
+[Nahiyan Rahman]<<Male>>#red
+
+[Akif Sadeed]<<Male>>
+[Farina Mahrin]<<Female>>
+
+[Rushnan Anusha]<<Female>>
+[Rashad Arbab]<<Male>>
+
+'Mas Side Begin
+[Taiyeb Ali]----right-[Shah Saleha Begum]
+[Taiyeb Ali]-[#red]---->[Israt Jahan]
+[Shah Saleha Begum]-[#blue]---->[Israt Jahan]
+[Taiyeb Ali]-[#red]->[Rownak Jahan]
+[Shah Saleha Begum]-[#blue]->[Rownak Jahan]
+[Taiyeb Ali]-[#red]-->[Rowshan Jahan]
+[Shah Saleha Begum]-[#blue]-->[Rowshan Jahan]
+[Taiyeb Ali]-[#red]--->[Noor Jahan]
+[Shah Saleha Begum]-[#blue]--->[Noor Jahan]
+[Taiyeb Ali]-[#red]----->[Abul Fateh M Abdullah]
+[Shah Saleha Begum]-[#blue]----->[Abul Fateh M Abdullah]
+
+'Bokkhanu
+[Rownak Jahan]----right-[Ataur Rahman]
+[Ataur Rahman]-[#red]->[Anwar Sadmani]
+[Rownak Jahan]-[#blue]->[Anwar Sadmani]
+[Ataur Rahman]-[#red]-->[Shahriar Rahman]
+[Rownak Jahan]-[#blue]-->[Shahriar Rahman]
+
+'Ashek Bhaia
+[Anwar Sadmani]----right-[Shapla Sadmani]
+[Anwar Sadmani]-[#red]->[Fatima Al Zahra]
+[Shapla Sadmani]-[#blue]->[Fatima Al Zahra]
+
+'Arif Bhaia
+[Shahriar Rahman]----right-[Hajera Akhter]
+[Shahriar Rahman]-[#red]->[Ayham Abdullah]
+[Hajera Akhter]-[#blue]->[Ayham Abdullah]
+[Shahriar Rahman]-[#red]-->[Ayesha Ayana]
+[Hajera Akhter]-[#blue]-->[Ayesha Ayana]
+
+'Majpa Khala
+[Rowshan Jahan]----right-[Mujibur Rahman]
+[Mujibur Rahman]-[#red]-->[Akmar Saminur Rahman]
+[Rowshan Jahan]-[#blue]-->[Akmar Saminur Rahman]
+[Mujibur Rahman]-[#red]->[Nahiyan Rahman]
+[Rowshan Jahan]-[#blue]->[Nahiyan Rahman]
+
+'Duduma Khala
+[Noor Jahan]----right-[Ahmed Abu Saleh]
+[Ahmed Abu Saleh]-[#red]->[Akif Sadeed]
+[Noor Jahan]-[#blue]->[Akif Sadeed]
+[Ahmed Abu Saleh]-[#red]-->[Farina Mahrin]
+[Noor Jahan]-[#blue]-->[Farina Mahrin]
+
+'Mamu
+[Abul Fateh M Abdullah]----right-[Aditi Titas Huq]
+[Abul Fateh M Abdullah]-[#red]->[Rushnan Anusha]
+[Aditi Titas Huq]-[#blue]->[Rushnan Anusha]
+[Abul Fateh M Abdullah]-[#red]->[Rashad Arbab]
+[Aditi Titas Huq]-[#blue]->[Rashad Arbab]
+
+' Babas Side Begin
+[Mosharof Hussain]----right-[Rehana Khatun]
+[Rehana Khatun]-[#blue]->[Monzoor Murshed]
+[Mosharof Hussain]-[#red]->[Monzoor Murshed]
+[Rehana Khatun]-[#blue]-->[Mahbub Murshed]
+[Mosharof Hussain]-[#red]-->[Mahbub Murshed]
+[Rehana Khatun]-[#blue]--->[Maksud Murshed]
+[Mosharof Hussain]-[#red]--->[Maksud Murshed]
+[Rehana Khatun]-[#blue]---->[Minhaz Murshed]
+[Mosharof Hussain]-[#red]---->[Minhaz Murshed]
+[Rehana Khatun]-[#blue]---->[Mahtab Murshed]
+[Mosharof Hussain]-[#red]---->[Mahtab Murshed]
+
+[Monzoor Murshed]----right-[Israt Jahan]
+[Monzoor Murshed]-[#red]->[Razi Murshed]
+[Israt Jahan]-[#blue]->[Razi Murshed]
+[Monzoor Murshed]-[#red]-->[Wazih Abbas Murshed]
+[Israt Jahan]-[#blue]-->[Wazih Abbas Murshed]
+
+[Mahbub Murshed]----right-[Lubna Chachi]
+[Mahbub Murshed]-[#red]->[Rafid Murshed]
+[Lubna Chachi]-[#blue]->[Rafid Murshed]
+[Mahbub Murshed]-[#red]-->[Sadid Murshed]
+[Lubna Chachi]-[#blue]-->[Sadid Murshed]
+[Mahbub Murshed]-[#red]--->[Mariam Murshed]
+[Lubna Chachi]-[#blue]--->[Mariam Murshed]
+
+[Maksud Murshed]----right-[Chobi Chachi]
+[Maksud Murshed]-[#red]->[Siam Murshed]
+[Chobi Chachi]-[#blue]->[Siam Murshed]
+[Maksud Murshed]-[#red]-->[Ilham Murshed]
+[Chobi Chachi]-[#blue]-->[Ilham Murshed]
+
+[Minhaz Murshed]----right-[Ruby Chachi]
+[Minhaz Murshed]-[#red]->[Musa Murshed]
+[Ruby Chachi]-[#blue]->[Musa Murshed]
+[Minhaz Murshed]-[#red]-->[Mahdi Murshed]
+[Ruby Chachi]-[#blue]-->[Mahdi Murshed]
+[Minhaz Murshed]-[#red]--->[Moaz Murshed]
+[Ruby Chachi]-[#blue]--->[Moaz Murshed]
+
+[Mahtab Murshed]----right-[Fateha Chachi]
+[Mahtab Murshed]-[#red]->[Tasnim Murshed]
+[Fateha Chachi]-[#blue]->[Tasnim Murshed]
+[Mahtab Murshed]-[#red]-->[Tohfa Murshed]
+[Fateha Chachi]-[#blue]-->[Tohfa Murshed]
+[Mahtab Murshed]-[#red]--->[Tabassum Murshed]
+[Fateha Chachi]-[#blue]--->[Tabassum Murshed]
+' Babas Side End
+
+@enduml
