@@ -12,7 +12,7 @@ skinparam component {
 [Israt Jahan]<<Female>>
 
 [Mahbub Murshed]<<Male>>
-[Lubna Chachi]<<Female>>
+[Shamsunna Borat Chowdhury]<<Female>>
 
 [Maksud Murshed]<<Male>>
 [Mahmuda Begum]<<Female>>
@@ -140,13 +140,13 @@ skinparam component {
         [Monzoor Murshed]-[#red]-->[Wazih Abbas Murshed]
         [Israt Jahan]-[#blue]-->[Wazih Abbas Murshed]
 
-    [Mahbub Murshed]----right-[Lubna Chachi]
+    [Mahbub Murshed]----right-[Shamsunna Borat Chowdhury]
         [Mahbub Murshed]-[#red]->[Rafid Murshed]
-        [Lubna Chachi]-[#blue]->[Rafid Murshed]
+        [Shamsunna Borat Chowdhury]-[#blue]->[Rafid Murshed]
         [Mahbub Murshed]-[#red]-->[Sadid Murshed]
-        [Lubna Chachi]-[#blue]-->[Sadid Murshed]
+        [Shamsunna Borat Chowdhury]-[#blue]-->[Sadid Murshed]
         [Mahbub Murshed]-[#red]--->[Mariam Murshed]
-        [Lubna Chachi]-[#blue]--->[Mariam Murshed]
+        [Shamsunna Borat Chowdhury]-[#blue]--->[Mariam Murshed]
 
     [Maksud Murshed]----right-[Mahmuda Begum]
         [Maksud Murshed]-[#red]->[Siam Murshed]
