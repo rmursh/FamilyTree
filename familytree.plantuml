@@ -5,6 +5,28 @@ skinparam component {
 }
 
 'Babas Side List
+[Rumi Kha]<<Male>>#red
+
+[Mohammed Joma]<<Male>>#red
+[Jongiy Mohammed]<<Male>>#red
+[Mohammed Rafi]<<Male>>#red
+
+[Sadok Mohammed]<<Male>>#red
+[Innat Mohammed]<<Male>>#red
+[Ashrof Mohammed]<<Male>>#red
+[Rojob Uddin]<<Male>>#red
+[Ajimuddin]<<Male>>#red
+
+[Golam Mohammed]<<Male>>#red
+[Jamal Mohammed]<<Male>>#red
+[Jori Mohammed]<<Male>>#red
+[Mohammed Ashrof]<<Male>>#red
+
+[Abdul Ali]<<Male>>#red
+[Hafiz Ajfor Ali]<<Male>>#red
+[Mokluja Bibi]<<Female>>#red
+
+
 [Mosharof Hussain]<<Male>>#red
 [Rehana Khatun]<<Female>>
 
@@ -122,6 +144,35 @@ skinparam component {
         [Aditi Titas Huq]-[#blue]->[Rashad Arbab]
 
 ' Babas Side Begin
+
+[Rumi Kha]-[#red]->[Mohammed Joma]
+[Rumi Kha]-[#red]->[Jongiy Mohammed]
+[Rumi Kha]-[#red]->[Mohammed Rafi]
+
+[Jongiy Mohammed]-[#red]->[Sadok Mohammed]
+[Jongiy Mohammed]-[#red]-[Innat Mohammed]
+[Jongiy Mohammed]-[#red]-[Ashrof Mohammed]
+[Jongiy Mohammed]-[#red]-[Rojob Uddin]
+[Jongiy Mohammed]-[#red]-[Ajimuddin]
+
+[Innat Mohammed]-[#red]->[Golam Mohammed]
+[Innat Mohammed]-[#red]->[Jamal Mohammed]
+[Innat Mohammed]-[#red]->[Jori Mohammed]
+[Innat Mohammed]-[#red]->[Mohammed Ashrof]
+
+[Abdul Ali]<<Male>>#red
+[Hafiz Ajfor Ali]<<Male>>#red
+[Mokluja Bibi]<<Female>>#red
+
+[Jori Mohammed]-[#red]->[Abdul Ali]
+[Jori Mohammed]-[#red]->[Hafiz Ajfor Ali]
+
+[Mohammed Ashrof]-[#red]->[Mokluja Bibi]
+
+[Abdul Ali]----right-[Mokluja Bibi]
+    [Mokluja Bibi]-[#blue]->[Mosharof Hussain]
+    [Abdul Ali]-[#red]->[Mosharof Hussain]
+
 [Mosharof Hussain]----right-[Rehana Khatun]
     [Rehana Khatun]-[#blue]->[Monzoor Murshed]
     [Mosharof Hussain]-[#red]->[Monzoor Murshed]
